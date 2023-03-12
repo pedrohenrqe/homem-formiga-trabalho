@@ -1,7 +1,7 @@
 *{
     margin: 0;
     border: 0;
-
+    box-sizing: 0;
 }
 
 body{
@@ -9,7 +9,6 @@ body{
     height: 100vh;
     display: grid;
     background-image: url(./img/background.png);
-    padding: 70px 70px 24px 70px;
     grid-template-rows: 100px 1fr 50px;    
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,31 +19,35 @@ body{
     position: absolute;
     width: 70%;
     gap: 40px;
+    padding: 70px;
 }
 
 .logo_icon{
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 20%;
+    left: 11%;
     transform: translate(-30%, -10%);
-    margin-top: 100px;
+    margin-right: 100px;
     margin-top: 40px;
+    padding: 70px;
 }
 
 
 .description_title{
     color: white;
     position: absolute;
-    width: 350px;
+    width: 450px;
     margin-top: 400px;
     font-size: 20px;
+    padding: 70px;
 }
 
-.rodape {
+.rodape{
     display: flex;
     justify-content: left;
     align-items: end;
     gap: 45px;
+    padding: 70px;
 }
 
 
