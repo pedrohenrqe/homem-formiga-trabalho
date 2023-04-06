@@ -35,18 +35,18 @@ body{
 
 .description_title{
     color: white;
-    width: 500px;
-    margin-top: 270px;
+    width: 600px;
+    margin-top: 320px;
     font-size: 20px;
     padding: 70px;
     
 }
 
 .redes_sociais{
-    background-color: red;
+    /* background-color: red; */
     text-align: right;
     top: 100px;
-}
+} 
 
 .rodape{
     /* background-color: red; */
@@ -55,7 +55,7 @@ body{
     align-items: end; 
     gap: 45px;
     padding: 70px;
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 
